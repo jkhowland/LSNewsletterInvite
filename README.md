@@ -28,7 +28,7 @@ Getting Started
 1. Add the LSNewsletterInvite code (directory) to your project
 2. Add ChimpKit and SVProgressHUD libraries to your project
 3. Link your apps binary with the QuartzCore framework (this is for SVProgressHUD
-4. Copy the example dictionary from the info Plist in the example project to your app
+4. Copy the `MailChimp` dictionary from the Info.plist in the example project to your app
 5. Update the values in that dictionary: `YOUR_API_KEY_HERE` should be your MailChimp API Key and `YOUR_LIST_ID_HERE` should be the list to which you'd like your user to subscribe. (The groupings are optional but recommended.)
 6. Call `[LSNewsletterInvite appLaunched:YES viewConroller:__YOUR_VIEW_CONTROLLER__]` in your app delegates `applicationWillEnterForeground:` method. The viewController is provided for the Invite to be presented. You may (should) add `andSettings:` for more customization.
 
